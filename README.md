@@ -1,1 +1,2 @@
 # snake-stable-baseline
+snakeenv.py contains the definitions for each environment, and utils.py contains custom training monitor and feature extracture definitions. learn.py is where we train the model, which is saved automatically (by the monitoring callbacks) based on mean rewards per episode. evaluate.py loads the model best_model.zip and evaluates it. baseline.ipynb computes the rewards of the baselines.
